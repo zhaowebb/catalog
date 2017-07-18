@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="//apis.google.com/js/platform.js?onload=start"> </script>
+</head>
+<body style="background-color: lightgrey">
+  <div class="header">
+        <div class="app_name">
+        <h1 style="background-color: navy; color : white">Catalog App</h1>
+        </div>
+        <div style="margin-left: 88%">
+        <a href="{{url_for('gdisconnect')}}">log out</a>
+        </div>
+  </div>
+
+  <form action="{{url_for('add_item')}}" method="post">
+		<fieldset>
+			<legend>add item</legend>
+
+			<label>category</label>
+			<select name="genre">
+				<option value="Elementary School">Elementary School</option>
+				<option value="Middle School">Middle School</option>
+				<option value="High School">High School</option>
+			</select>
+			<br>
+
+			<label>item name</label>
+			<input type="text" name='name' placeholder="new item" required>
+			<br>
+
+
+			<label>description</label>
+			<br>
+			<textarea rows="10" cols="80" name="description" required></textarea>
+			<br><br>
+
+			<input type="submit" name="" value="save">
+			<!-- <input type="reset" name="" value="clear"> -->
+		</fieldset>
+	</form>
+
+</body>
+</html>
