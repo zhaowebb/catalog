@@ -1,6 +1,6 @@
 # Brief Introduction
 
-This is a web application that implements basic functionality of CRUD (create, read, update, and delete). Verified users can add, edit and delete school informations as they want. 
+This is a web application that implements basic functionality of CRUD (create, read, update, and delete). Verified users can add, edit and delete school information as they want. 
 
 
 # Start Guide:
