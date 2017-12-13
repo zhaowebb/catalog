@@ -1,7 +1,7 @@
-# catalog
-This catalog web app allows users to create, read, update and delete items. To be more specific, users can log in with their Google account, add movies in a specific category to the database, edit the information of the movies and can also delete the movie they added. Users can only modify the movies which are created by themselves.
+# Brief Introduction
 
-This project makes use of the Linux-based virtual machine (VM), you'll need VirtualBox, Vagrant installed in advance.
+This is a web application that implements basic functionality of CRUD (create, read, update, and delete). Verified users can add, edit and delete school informations as they want. 
+
 
 # Start Guide:
 
